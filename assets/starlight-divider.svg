@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-label="A trail of blue and lavender stars">
+  <defs>
+    <linearGradient id="line"><stop stop-color="#91bce7" stop-opacity="0"/><stop offset=".38" stop-color="#91bce7"/><stop offset=".62" stop-color="#b9a7e0"/><stop offset="1" stop-color="#b9a7e0" stop-opacity="0"/></linearGradient>
+    <path id="star" d="M0-12Q2-2 12 0Q2 2 0 12Q-2 2-12 0Q-2-2 0-12Z"/>
+  </defs>
+  <style>
+    .twinkle{animation:twinkle 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    .late{animation-delay:-2s}
+    @keyframes twinkle{0%,100%{opacity:.55;transform:scale(.86)}50%{opacity:1;transform:scale(1)}}
+    @media(prefers-reduced-motion:reduce){.twinkle{animation:none}}
+  </style>
+  <path d="M70 32H490M710 32H1130" stroke="url(#line)" stroke-width="1.5"/>
+  <g fill="#91bce7"><circle cx="516" cy="32" r="2"/><circle cx="684" cy="32" r="2"/><use href="#star" x="550" y="32" class="twinkle"/><use href="#star" x="650" y="32" class="twinkle late"/></g>
+  <g transform="translate(600 32) scale(1.4)" fill="#b9a7e0"><use href="#star" class="twinkle late"/></g>
+</svg>

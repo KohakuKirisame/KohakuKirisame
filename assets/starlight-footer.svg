@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Thanks for stopping by</title>
+  <desc id="desc">May your code compile and your little stars keep shining.</desc>
+  <defs>
+    <linearGradient id="sky" x2="1" y2=".5"><stop stop-color="#e4f1ff"/><stop offset=".5" stop-color="#efedfc"/><stop offset="1" stop-color="#e5effc"/></linearGradient>
+    <path id="star" d="M0-13Q2-2 13 0Q2 2 0 13Q-2 2-13 0Q-2-2 0-13Z"/>
+  </defs>
+  <style>
+    .sparkle{animation:glimmer 5s ease-in-out infinite}.later{animation-delay:-2.5s}
+    @keyframes glimmer{0%,100%{opacity:.4}50%{opacity:1}}
+    @media(prefers-reduced-motion:reduce){.sparkle{animation:none}}
+  </style>
+  <rect x="1" y="1" width="1198" height="178" rx="22" fill="url(#sky)"/>
+  <g fill="none" stroke="#bccde7" opacity=".55"><path d="M0 146Q200 59 400 137T800 137T1200 117"/><path d="M0 158Q200 71 400 149T800 149T1200 129"/></g>
+  <g fill="#8cadd3" class="sparkle"><use href="#star" x="130" y="65"/><use href="#star" x="1056" y="106"/><circle cx="207" cy="119" r="3"/><circle cx="1000" cy="43" r="2"/></g>
+  <g fill="#aa98cd" class="sparkle later"><use href="#star" transform="translate(180 98) scale(.5)"/><use href="#star" transform="translate(1102 55) scale(.7)"/><circle cx="89" cy="114" r="2"/></g>
+  <g text-anchor="middle" fill="#566e98"><text x="600" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-style="italic">Thanks for stopping by.</text><text x="600" y="116" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing=".6">May your code compile &amp; your little stars keep shining.</text></g>
+</svg>

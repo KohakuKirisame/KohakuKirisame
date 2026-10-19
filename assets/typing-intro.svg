@@ -1,0 +1,18 @@
+<!-- Generated with DenverCoder1/readme-typing-svg; adapted for system fonts and reduced motion. -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="640" height="48" viewBox="0 0 640 48" role="img" aria-labelledby="title">
+  <title id="title">Hello, world. I'm Kohaku Kirisame. Neural signals, creative code and cosplay. Stay curious. Keep it kirakira.</title>
+  <style>
+    text{font:19px ui-monospace, SFMono-Regular, Consolas, monospace;fill:#6e9ed6;dominant-baseline:middle;text-anchor:middle}
+    .static{display:none}
+    @media(prefers-reduced-motion:reduce){.animated{display:none}.static{display:block}}
+  </style>
+  <g class="animated">
+    <path id="path0"><animate id="d0" attributeName="d" begin="0s;d2.end" dur="4400ms" fill="remove" values="m0,24 h0;m0,24 h640;m0,24 h640;m0,24 h0" keyTimes="0;.582;.855;1"/></path>
+    <path id="path1"><animate id="d1" attributeName="d" begin="d0.end" dur="4400ms" fill="remove" values="m0,24 h0;m0,24 h640;m0,24 h640;m0,24 h0" keyTimes="0;.582;.855;1"/></path>
+    <path id="path2"><animate id="d2" attributeName="d" begin="d1.end" dur="4400ms" fill="remove" values="m0,24 h0;m0,24 h640;m0,24 h640;m0,24 h0" keyTimes="0;.582;.855;1"/></path>
+    <text x="50%"><textPath xlink:href="#path0">Hello, world. I'm Kohaku Kirisame.</textPath></text>
+    <text x="50%"><textPath xlink:href="#path1">Neural signals, creative code &amp; cosplay.</textPath></text>
+    <text x="50%"><textPath xlink:href="#path2">Stay curious. Keep it kirakira.</textPath></text>
+  </g>
+  <text class="static" x="320" y="24">Hello, world. I'm Kohaku Kirisame.</text>
+</svg>
